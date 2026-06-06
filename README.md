@@ -42,7 +42,7 @@ Carrier Frequency：10 GHz
 
 💻 Code Features
 
-step0_show_large_image.py: Reads raw .dat echo files, parses the header parameters, and performs SAR imaging using the Range-Doppler (RD) Algorithm. 
+step0_show_large_image.py: Reads raw .dat echo files, parses the header parameters, and performs SAR imaging using the Range-Doppler (RD) Algorithm. It provides a clear visual comparison between a basic compression result and a full-process result.
 
 step1_make_dataset.py: Processes the complex SAR images into training datasets suitable for Deep Learning. 
 
