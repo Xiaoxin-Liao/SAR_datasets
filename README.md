@@ -6,8 +6,11 @@ The raw SAR echo data (12 scenes in total) is hosted on Baidu Netdisk.
 Link:  https://pan.baidu.com/s/1l2x9R4EeaVNwsp-VlP-PIw?pwd=edy8
 
 Dataset Split:
+
 Echo 1 - 6: Training data.
+
 Echo 7 - 10: Validation data (Captured with the same system parameters as the training data).
+
 Echo 11 - 12: Testing data (Captured with different system parameters to evaluate algorithm generalization).
 
 ⚙️ System Parameters (For Echoes 1 - 10)
