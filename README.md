@@ -1,9 +1,12 @@
 This repository provides an open-source Synthetic Aperture Radar (SAR) echo dataset, along with the corresponding Python code for SAR imaging/visualization (Range-Doppler Algorithm) and deep learning dataset construction. It is designed to help researchers and developers working on SAR signal processing, imaging algorithms, or deep learning-based SAR applications.
 
+
 📥 Data Download
+
 The raw SAR echo data (12 scenes in total) is hosted on Baidu Netdisk.
 
 Link:  https://pan.baidu.com/s/1l2x9R4EeaVNwsp-VlP-PIw?pwd=edy8
+
 
 Dataset Split:
 
@@ -17,29 +20,31 @@ Echo 11 - 12: Testing data (Captured with different system parameters to evaluat
 
 The table below details the SAR system configurations used to generate the training and validation datasets.
 
+
 Configuration	System parameters
-<img width="1282" height="906" alt="屏幕截图 2026-06-06 100346" src="https://github.com/user-attachments/assets/cb813c27-0bea-4ed3-aad6-73a828f1838d" />
 
-Platform Height	10000 m
+Platform Height：10000 m
 
-Platform velocity	400 m/s
+Platform velocity：400 m/s
 
-Center incidence angle	60°
+Center incidence angle：60°
 
-Sampling Rate	192 MHz
+Sampling Rate：192 MHz
 
-Pulse Time Width	2.0 us
+Pulse Time Width：2.0 us
 
-Bandwidth	160 MHz
+Bandwidth：160 MHz
 
-PRF (Pulse Repetition Frequency)	480 Hz
+PRF：480 Hz
 
-Carrier Frequency	10 GHz
+Carrier Frequency：10 GHz
+
 
 💻 Code Features
-step0_show_large_image.py: Reads raw .dat echo files, parses the header parameters, and performs SAR imaging using the Range-Doppler (RD) Algorithm. It provides a clear visual comparison between a basic compression result and a full-process result (including SRC - Secondary Range Compression and RCMC - Range Cell Migration Correction).
 
-step1_make_dataset.py: Processes the complex SAR images into training datasets suitable for Deep Learning. It applies sliding window cropping (256x256 patches), separates the Real and Imaginary parts of the complex data into channels (2, H, W), and saves them as .npy arrays.
+step0_show_large_image.py: Reads raw .dat echo files, parses the header parameters, and performs SAR imaging using the Range-Doppler (RD) Algorithm. 
+
+step1_make_dataset.py: Processes the complex SAR images into training datasets suitable for Deep Learning. 
 
 
 
