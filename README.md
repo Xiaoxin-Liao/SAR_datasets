@@ -1,4 +1,3 @@
-Introduction
 This repository provides an open-source Synthetic Aperture Radar (SAR) echo dataset, along with the corresponding Python code for SAR imaging/visualization (Range-Doppler Algorithm) and deep learning dataset construction. It is designed to help researchers and developers working on SAR signal processing, imaging algorithms, or deep learning-based SAR applications.
 
 📥 Data Download
@@ -19,6 +18,7 @@ Echo 11 - 12: Testing data (Captured with different system parameters to evaluat
 The table below details the SAR system configurations used to generate the training and validation datasets.
 
 Configuration	System parameters
+<img width="1282" height="906" alt="屏幕截图 2026-06-06 100346" src="https://github.com/user-attachments/assets/cb813c27-0bea-4ed3-aad6-73a828f1838d" />
 
 Platform Height	10000 m
 
