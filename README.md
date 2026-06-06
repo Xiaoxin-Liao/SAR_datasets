@@ -1,3 +1,7 @@
-百度云盘中包含了12个回波数据，具体的系统参数如下：
-回波1-6是训练数据，回波7-10是和训练数据同样系统参数的验证数据，回波11和12是不同系统参数的测试数据。
-云盘链接: https://pan.baidu.com/s/1l2x9R4EeaVNwsp-VlP-PIw?pwd=edy8 提取码: edy8 
+Introduction
+This repository provides an open-source Synthetic Aperture Radar (SAR) echo dataset, along with the corresponding Python code for SAR imaging/visualization (Range-Doppler Algorithm) and deep learning dataset construction. It is designed to help researchers and developers working on SAR signal processing, imaging algorithms, or deep learning-based SAR applications.
+
+📥 Data Download
+The raw SAR echo data (12 scenes in total) is hosted on Baidu Netdisk.
+Link: Baidu Netdisk (Click Here)
+Extraction Code: edy8
